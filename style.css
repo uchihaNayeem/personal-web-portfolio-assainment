@@ -1,0 +1,184 @@
+
+
+body{
+
+  font-family: 'Poppins', sans-serif;
+  /* background-color: rgb(63, 59, 59); */
+  margin: 0;;
+}
+
+
+
+h1{
+  font-size: 50px;
+}
+.name-color{
+  color: rgb(240, 94, 118);
+}
+
+.center{
+  margin-top: 10%;
+}
+
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left:5% ;
+  padding-left: 2% ;
+}
+
+.half-width img{
+  width: 100%;
+}
+
+.top-banner{
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+section{
+  height: 500px;
+  padding-bottom: 60px;;
+}
+
+
+.first-button{
+  text-decoration: none;
+  background-color: rgb(240, 66, 66);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+
+h2{
+  font-size: 40px;
+}
+
+p{font-weight: 500;}
+
+.dream-area{
+  background-image: url(images/biography-bg.png);
+  /* background-repeat: no-repeat; */
+  /* background-position: right; */
+}
+
+.latest-work-bg{
+  background-image: url(images/latest-work-bg.png);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-position: right; */
+}
+
+.single-experience{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: rgb(226, 236, 236);
+
+
+}
+.experience-area{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#full-stack{
+  border-left: 7px solid;
+  border-image:  linear-gradient(rgb(39, 19, 128), tomato) ;
+  border-image-slice: 1;
+}
+
+#baby-stack{
+  border-left: 7px solid;
+  border-image:  linear-gradient(rgb(39, 19, 128), tomato) ;
+  border-image-slice: 1;
+  
+}
+footer p{
+  text-align: center;
+}
+
+/* my latest work */
+
+.text-center{
+  text-align: center;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+.img-width img{
+  width: 100%;
+  
+}
+
+
+.client-section-img{
+  background-image: url(images/client.png);
+  background-position: center;
+  background-size: auto;
+}
+
+.box{
+  background-image: linear-gradient(45deg, rgb(228, 86, 152), rgb(255, 0, 191));
+  width: 657px;
+  margin-left: 334px;
+  border-radius: 5px;
+  color: white;
+  height: 144px;
+  
+}
+
+.box p{
+  padding-top: 10px;
+  
+}
+
+.box h3{
+  padding-bottom: 25px;
+}
+
+/* contact form */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
